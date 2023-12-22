@@ -39,7 +39,7 @@ Before using RSTP Viewer app, you must install required dependencies:
 4. Run the app:
 
    ```bash
-   python3 app.py
+   python3 main.py
    ```
 
 ## Configuration
