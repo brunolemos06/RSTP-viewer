@@ -1,14 +1,14 @@
-# RSTP Viewer
+# RTSP Viewer
 
 ## Introduction
 
-RSTP Viewer is a simple tool that allows you to view multiple RTSP (Real-Time Streaming Protocol) streams simultaneously. This tool is configured using a `.env` file, providing an easy and customizable way to manage multiple camera feeds.
+RTSP Viewer is a simple tool that allows you to view multiple RTSP (Real-Time Streaming Protocol) streams simultaneously. This tool is configured using a `.env` file, providing an easy and customizable way to manage multiple camera feeds.
 
 ## Getting Started
 
 ### Prerequisites
 
-Before using RSTP Viewer app, you must install required dependencies:
+Before using RTSP Viewer app, you must install required dependencies:
 
 - [python3](https://www.python.org/downloads/)
 - [pip](https://pip.pypa.io/en/stable/installing/)
@@ -21,11 +21,11 @@ Before using RSTP Viewer app, you must install required dependencies:
 
 ### Installation
 
-1. Clone the RSTP Viewer repository to your local machine:
+1. Clone the RTSP Viewer repository to your local machine:
 
    ```bash
-   git clone https://github.com/brunolemos06/RSTP-viewer.git
-   cd RSTP-viewer
+   git clone https://github.com/brunolemos06/RTSP-viewer.git
+   cd RTSP-viewer
     ```
 2. Change .env file in the project root and configure it with your camera names and RTSP URLs:
 
