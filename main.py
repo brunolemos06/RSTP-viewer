@@ -77,6 +77,9 @@ if __name__ == "__main__":
     if len(names) != len(rtsp_urls):
         raise Exception("The size of NAMES and RTSP_URLS are different.")
     
+    if len(rtsp_urls) < 1:
+        raise Exception("You need to set at least one RTSP_URL.")
+    
 
     root = tk.Tk()
     root.title("RTSP Stream Switcher")
