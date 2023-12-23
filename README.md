@@ -27,7 +27,7 @@ Before using RSTP Viewer app, you must install required dependencies:
    git clone https://github.com/brunolemos06/RSTP-viewer.git
    cd RSTP-viewer
     ```
-2. Create a .env file in the project root and configure it with your camera names and RTSP URLs:
+2. Change .env file in the project root and configure it with your camera names and RTSP URLs:
 
    ```bash
     NAMES=CAM1,CAM2
